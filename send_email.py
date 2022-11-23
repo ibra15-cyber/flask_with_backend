@@ -7,7 +7,7 @@ import smtplib, ssl
 #our fn takes the fellows email and height
 def send_email(email, height, average_height, count): 
     from_email="nyars15@gmail.com" #my email that will do the sending
-    from_passwd="who?WHAT?why?.@gmaa"
+    from_passwd="your password"
     to_email=email                  #the email to send msg to
 
     subject="Height data"           #subject
